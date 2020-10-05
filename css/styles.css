@@ -70,6 +70,11 @@ transition:hover 2s;
   }
 
 
+  .stiky{
+    position: sticky;
+    top: 0;     
+  }
+
   nav {
     display: flex;
     justify-content: left;
@@ -78,8 +83,6 @@ transition:hover 2s;
     padding-bottom: 10px;
     width: 100%;
     background-color: #e7e7e7;
-    position: sticky;
-    top: 0; 
   }
   
   .brand{
@@ -174,6 +177,7 @@ transition:hover 2s;
     border-width: 2px;
     border-style: solid;
     border-color: #242424;
+    margin-top: 30px;
     }
 
 /*
